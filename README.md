@@ -34,8 +34,24 @@ Es un sistema que permite registrar y organizar los cambios realizados en los ar
 
 Git es como una máquina del tiempo para tus archivos. Permite guardar cada cambio importante, volver a versiones anteriores y colaborar sin conflictos ni pérdida de información.
 
-### ¿Qué es un repositorio?
+<div style="display: flex; align-items: center; gap: 20px;">
 
-|                                                                                       |                                                                                           |
-|---------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------|
-| En Git, un repositorio es el corazón del proyecto: contiene los archivos y todo su historial. Puede ser:<br><br> • **Local:** Almacenado en la máquina del usuario.<br> • **Remoto:** Alojado en plataformas como GitHub o GitLab para facilitar la colaboración.<br><br>Cuando usamos `git init`, convertimos una carpeta común en un repositorio local. | <img src="img/repositorio.png" width="300"/> |
+<div style="flex: 1;">
+  <h3>¿Qué es un repositorio?</h3>
+  <p>
+    En Git, un repositorio es el corazón del proyecto: contiene los archivos y todo su historial. Puede ser:
+  </p>
+  <ul>
+    <li><strong>Local:</strong> Almacenado en la máquina del usuario.</li>
+    <li><strong>Remoto:</strong> Alojado en plataformas como GitHub o GitLab para facilitar la colaboración.</li>
+  </ul>
+  <p>
+    Cuando usamos <code>git init</code>, convertimos una carpeta común en un repositorio local.
+  </p>
+</div>
+
+<div>
+  <img src="img/repositorio.png" alt="Diagrama de repositorio" width="300"/>
+</div>
+
+</div>
