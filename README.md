@@ -48,3 +48,56 @@ Cuando usamos git init, convertimos una carpeta común en un repositorio local.
   <img src="img/repositorio.png" alt="Repositorio local vs remoto" width="280"/><br>
   <em>Figura: Relación entre repositorio local y remoto en Git.</em>
 </p>
+
+
+
+## Clase 2 – Estados, Commits y creación de ramas
+
+### Estados en Git
+Git gestiona los archivos mediante tres estados que reflejan su situación en el flujo de trabajo:
+
+- **Modified (Modificado):** el archivo fue editado pero aún no está listo para ser guardado.
+- **Staged (Preparado):** el archivo fue marcado con `git add` y está listo para el siguiente commit.
+- **Committed (Confirmado):** el archivo ya forma parte del historial del repositorio.
+
+Comprender estos estados permite dominar el flujo de trabajo: modificar → preparar → confirmar.
+
+### ¿Qué es un commit?
+Un commit es una instantánea del estado del proyecto. Cada commit almacena:
+- Archivos preparados (staged).
+- Información del autor.
+- Fecha y hora del cambio.
+- Un mensaje que describe el propósito del commit.
+
+> Ejemplos de buenos mensajes:
+> - `Agregar sección sobre ramas`
+> - `Corregir error en ejemplo de commit`
+
+Evitar mensajes genéricos como “cambios” o “update”.
+
+### HEAD en Git
+El `HEAD` es un puntero que indica el commit actual en la rama activa. Al hacer nuevos commits o cambiar de rama, `HEAD` se actualiza.
+
+- En la rama `main`, `HEAD` apunta al último commit de `main`.
+- Si se cambia de rama, `HEAD` apunta al último commit de la nueva rama.
+
+<p align="center">
+  <img src="img/Head.jpeg" alt="HEAD y ramas en Git" width="400"/>
+  <br>
+  <em>Figura: HEAD como puntero actual en la estructura de ramas en Git.</em>
+</p>
+
+### Introducción a ramas
+Una rama representa una línea de desarrollo independiente.
+
+Beneficios:
+- Facilita el trabajo paralelo.
+- Permite probar ideas sin afectar el código principal.
+- Mejora la organización del proyecto.
+
+La rama por defecto es `main`, donde suele mantenerse el código estable.
+
+### Comandos útiles para ramas
+Crear una nueva rama sin cambiarse a ella:
+```bash
+git branch nombre-de-la-rama
