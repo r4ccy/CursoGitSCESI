@@ -81,12 +81,6 @@ El `HEAD` es un puntero que indica el commit actual en la rama activa. Al hacer 
 - En la rama `main`, `HEAD` apunta al último commit de `main`.
 - Si se cambia de rama, `HEAD` apunta al último commit de la nueva rama.
 
-<p align="center">
-  <img src="img/Head.jpeg" alt="HEAD y ramas en Git" width="400"/>
-  <br>
-  <em>Figura: HEAD como puntero actual en la estructura de ramas en Git.</em>
-</p>
-
 ### Introducción a ramas
 Una rama representa una línea de desarrollo independiente.
 
@@ -96,6 +90,12 @@ Beneficios:
 - Mejora la organización del proyecto.
 
 La rama por defecto es `main`, donde suele mantenerse el código estable.
+
+<p align="center">
+  <img src="img/Head.jpeg" alt="HEAD y ramas en Git" width="400"/>
+  <br>
+  <em>Figura: Representación visual de ramas que se bifurcan desde la principal (`main`) en Git.</em>
+</p>
 
 ### Comandos útiles para ramas
 Crear una nueva rama sin cambiarse a ella:
