@@ -21,7 +21,7 @@ En la primera clase se abordó el concepto de control de versiones y la razón d
 Es un sistema que permite registrar y organizar los cambios realizados en los archivos de un proyecto a lo largo del tiempo. Permite ver el historial de cambios, identificar quién hizo cada modificación y cuándo, así como volver atrás en caso de errores. Además, facilita el trabajo en equipo sin que los cambios de una persona interfieran con los de otra.
 
 <p align="center">
-  <img src="img/versiones.png" alt="Cambios que puede haber en un proyecto" width="400"/>
+  <img src="img/versiones.png" alt="Cambios que puede haber en un proyecto" width="450"/>
 </p>
 
 ### Importancia de un control de versiones
@@ -38,4 +38,4 @@ Git es como una máquina del tiempo para tus archivos. Permite guardar cada camb
 
 |                                                                                       |                                                                                           |
 |---------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------|
-| En Git, un repositorio es el corazón del proyecto: contiene los archivos y todo su historial. Puede ser:<br><br> • **Local:** Almacenado en la máquina del usuario.<br> • **Remoto:** Alojado en plataformas como GitHub o GitLab para facilitar la colaboración.<br><br>Cuando usamos `git init`, convertimos una carpeta común en un repositorio local. | <img src="img/repositorio-local-vs-remoto.png" width="300"/> |
+| En Git, un repositorio es el corazón del proyecto: contiene los archivos y todo su historial. Puede ser:<br><br> • **Local:** Almacenado en la máquina del usuario.<br> • **Remoto:** Alojado en plataformas como GitHub o GitLab para facilitar la colaboración.<br><br>Cuando usamos `git init`, convertimos una carpeta común en un repositorio local. | <img src="img/repositorio.png" width="300"/> |
