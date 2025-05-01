@@ -8,6 +8,8 @@ Este repositorio documenta el contenido aprendido en el curso de control de vers
 
 ---
 
+![Introcción a Git](img/img1.png)
+
 ## Clase 1 – Introducción a Git
 
 En la primera clase se abordó el concepto de control de versiones y la razón de por qué se ha vuelto una herramienta esencial en el desarrollo de software.
@@ -15,6 +17,8 @@ En la primera clase se abordó el concepto de control de versiones y la razón d
 ### ¿Qué es un sistema de control de versiones?
 
 Es un sistema que permite registrar y organizar los cambios realizados en los archivos de un proyecto a lo largo del tiempo. Permite ver el historial de cambios, identificar quién hizo cada modificación y cuándo, así como volver atrás en caso de errores. Además, facilita el trabajo en equipo sin que los cambios de una persona interfieran con los de otra.
+
+![Cambios que puede haber en un proyecto](img/versiones)
 
 ### Importancia de un control de versiones
 
@@ -35,3 +39,4 @@ En Git, un repositorio es el corazón del proyecto: contiene los archivos y todo
 
 Cuando usamos `git init`, convertimos una carpeta común en un repositorio local.
 
+![Repositorio local vs remoto](img/repositorio.png)
