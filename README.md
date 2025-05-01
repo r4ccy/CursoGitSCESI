@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="img/git.png" alt="Logo" width="100"/>
+</p>
+
 # Curso Git/GitHub | SCESI
 
 Este repositorio documenta el contenido aprendido en el curso de control de versiones con Git y GitHub, impartido por SCESI. Cada clase se desarrolla en una rama independiente, con apuntes organizados, prácticas y comandos aplicados en diferentes ramas.
