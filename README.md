@@ -48,3 +48,4 @@ Cuando usamos git init, convertimos una carpeta común en un repositorio local.
   <img src="img/repositorio.png" alt="Repositorio local vs remoto" width="280"/><br>
   <em>Figura: Relación entre repositorio local y remoto en Git.</em>
 </p>
+
