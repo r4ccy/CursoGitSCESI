@@ -2,9 +2,7 @@
   <img src="img/git.png" alt="Logo" width="100"/>
 </p>
 
-# Curso Git/GitHub | SCESI
-
-Este repositorio documenta el contenido aprendido en el curso de control de versiones con Git y GitHub, impartido por SCESI. Cada clase se desarrolla en una rama independiente, con apuntes organizados, prácticas y comandos aplicados en diferentes ramas.
+# Git/GitHub | SCESI
 
 <p align="center">
   <img src="img/img1.png" alt="Introducción a Git" width="400"/>
@@ -12,9 +10,9 @@ Este repositorio documenta el contenido aprendido en el curso de control de vers
 
 ---
 
-## Clase 1 – Introducción a Git
+## 📁 Introducción a Git
 
-En la primera clase se abordó el concepto de control de versiones y la razón de por qué se ha vuelto una herramienta esencial en el desarrollo de software.
+Sistema de control de versiones para gestionar cambios en archivos, desde código hasta documentos. **Más que herramientas, es una filosofía de trabajo.**
 
 ### ¿Qué es un sistema de control de versiones?
 
@@ -31,6 +29,16 @@ Es un sistema que permite registrar y organizar los cambios realizados en los ar
 - **Seguridad:** Permite rastrear cada cambio y quién lo realizó.
 - **Flexibilidad:** Posibilita trabajar en paralelo mediante ramas, sin seguir un flujo lineal.
 
+### 🕰️ Breve historia de Git
+
+| Año  | Hito                                                                 |
+| ---- | -------------------------------------------------------------------- |
+| 1986 | **CVS** (sistema centralizado y lento).                              |
+| 2005 | **Git** creado por Linus Torvalds para Linux (rápido y distribuido). |
+| 2008 | Nace **GitHub** (plataforma social para repositorios Git).           |
+| 2018 | Microsoft compra GitHub (pero Git sigue siendo *open-source*).       |
+| 2024 | Git domina el 90% del mercado (alternativas: Mercurial, SVN).        |
+
 ### ¿Qué es Git?
 
 Git es como una máquina del tiempo para tus archivos. Permite guardar cada cambio importante, volver a versiones anteriores y colaborar sin conflictos ni pérdida de información.
@@ -42,7 +50,7 @@ En Git, un repositorio es el corazón del proyecto: contiene los archivos y todo
 - **Local:** Almacenado en la máquina del usuario.
 - **Remoto:** Alojado en plataformas como GitHub o GitLab para facilitar la colaboración.
 
-Cuando usamos git init, convertimos una carpeta común en un repositorio local.
+Cuando usamos `git init`, convertimos una carpeta común en un repositorio local.
 
 <p align="center">
   <img src="img/repositorio.png" alt="Repositorio local vs remoto" width="280"/><br>
