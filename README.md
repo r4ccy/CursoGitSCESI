@@ -10,79 +10,39 @@
 
 ---
 
-## 📁 Introducción a Git
+## 📁 HEAD en Git
 
-Sistema de control de versiones para gestionar cambios en archivos, desde código hasta documentos. **Más que herramientas, es una filosofía de trabajo.**
+En Git, HEAD es un puntero simbólico que siempre apunta al commit actual dentro de la rama activa. Es el marcador que indica dónde estás parado en el historial de versiones.
 
-### ¿Qué es un sistema de control de versiones?
+Cuando hacemos un nuevo commit, HEAD avanza al commit más reciente. Si cambiamos de rama o hacemos checkout a un commit anterior, HEAD también se actualiza para reflejar ese movimiento.
 
-Es un sistema que permite registrar y organizar los cambios realizados en los archivos de un proyecto a lo largo del tiempo. Permite ver el historial de cambios, identificar quién hizo cada modificación y cuándo, así como volver atrás en caso de errores. Además, facilita el trabajo en equipo sin que los cambios de una persona interfieran con los de otra.
+### Importancia del HEAD
 
-<p align="center">
-  <img src="img/versiones.png" alt="Historial de versiones en Git" width="500"/><br>
-  <em>Figura: Representación visual del historial de versiones en Git, donde cada punto corresponde a un commit con cambios progresivos en un archivo.</em>
-</p>
+- Permite identificar el estado actual del repositorio.
+- Facilita la navegación entre ramas y versiones.
+- Es clave para entender operaciones como checkout, reset y rebase.
 
-### Importancia de un control de versiones
+Podemos imaginar al HEAD como un mensaje que nos dice "Usted está aquí" en un mapa de commits. Siempre apunta al último commit visible en la rama donde se esta trabajando.
 
-- **Rendimiento:** Git guarda solo lo que cambia, no todo el archivo.
-- **Seguridad:** Permite rastrear cada cambio y quién lo realizó.
-- **Flexibilidad:** Posibilita trabajar en paralelo mediante ramas, sin seguir un flujo lineal.
+### Situaciones típicas con HEAD
 
-### 🕰️ Breve historia de Git
+1. **HEAD en una rama activa:**
 
-| Año  | Hito                                                                 |
-| ---- | -------------------------------------------------------------------- |
-| 1986 | **CVS** (sistema centralizado y lento).                              |
-| 2005 | **Git** creado por Linus Torvalds para Linux (rápido y distribuido). |
-| 2008 | Nace **GitHub** (plataforma social para repositorios Git).           |
-| 2018 | Microsoft compra GitHub (pero Git sigue siendo *open-source*).       |
-| 2024 | Git domina el 90% del mercado (alternativas: Mercurial, SVN).        |
+```bash
+HEAD -> main
+```
 
-### ¿Qué es Git?
+2. **HEAD en estado detached (desvinculado)**
 
-Git es como una máquina del tiempo para tus archivos. Permite guardar cada cambio importante, volver a versiones anteriores y colaborar sin conflictos ni pérdida de información.
+Cuando haces checkout a un commit específico (no una rama), HEAD entra en estado "detached". Esto significa que no está asociado a una rama. Si haces un commit desde allí, no se vinculará a ninguna rama existente. Por ejemplo:
 
-### ¿Qué es un repositorio?
+```bash
+git checkout 3f2a1e7
+```
 
-En Git, un repositorio es el corazón del proyecto: contiene los archivos y todo su historial. Puede ser:
+Resultado:
 
-- **Local:** Almacenado en la máquina del usuario.
-- **Remoto:** Alojado en plataformas como GitHub o GitLab para facilitar la colaboración.
-
-Cuando usamos `git init`, convertimos una carpeta común en un repositorio local.
-
-<p align="center">
-  <img src="img/repositorio.png" alt="Repositorio local vs remoto" width="280"/><br>
-  <em>Figura: Relación entre repositorio local y remoto en Git.</em>
-</p>
-
-## 📁 Estados de los archivos en Git
-
-Git clasifica los archivos en tres posibles estados:
-
-- **Modified (Modificado):** El archivo fue cambiado respecto a su último estado guardado, pero Git aún no lo considera listo para registrar.
-- **Staged (Preparado):** El archivo ha sido marcado con git add, indicando que está listo para ser incluido en el próximo commit.
-- **Commited (Confirmado):** El archivo fue registrado en el repositorio mediante un commit. Este estado representa una versión segura y parte del historial del proyecto.
-
-Flujo: **Modificación → Preparado → Confirmado**
-
-### ¿Qué es un commit?
-
-Un commit es un registro permanente de los cambios realizados en los archivos preparados. Puede entenderse como una fotografía del proyecto en un momento específico.
-
-Cada commit incluye:
-
-- Un identificador único
-- El autor del camnbio
-- La fecha y hora
-- Un mensaje descrptivo
-- Los archivos afectados
-
-### Buenas prácticas al hacer commits
-
-- Hacer commits frecuentemente para mantener el progreso guardado.
-- Escribir mensajes descrptivos, breves y claros.
-- Evitar mensajes genéricos como: "prueba", "cosas varias", "update"
-- Usar verbos en infinitivo o presente: "Corregir validación del formulario", "Actualizar README"
+```bash
+HEAD detached at 3f2a1e7
+```
 
