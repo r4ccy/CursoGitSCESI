@@ -18,7 +18,7 @@ Esto sincroniza nuestro historial con el remoto, permitiendo que otros lo vean o
 
 **Variaciones:**
 
-- **git push:** Emouja los cambios a la rama actyal configurada por upstream.
+- **git push:** Empuja los cambios a la rama actual configurada por upstream.
 - **git push -u origin nombre:** Empuja y define la rama de seguimiento.
 - **git push -f:** Fuerza el push (es peligroso si se esta reescribiendo el historial).
 - **git push --delete origin nombre:** Elimina una rama remota.
@@ -52,17 +52,17 @@ Si, si queremos modificar una parte de un archivo y otra persona también quiere
 
 | Comando | Descripción                               | Dirección      |
 | ------- | ----------------------------------------- | -------------- |
-| `push`  | Envía tus cambios al repositorio remoto   | Local → Remoto |
-| `pull`  | Descarga los cambios remotos a tu entorno | Remoto → Local |
+| **push**  | Envía tus cambios al repositorio remoto   | Local → Remoto |
+| **pull**  | Descarga los cambios remotos a tu entorno | Remoto → Local |
 
-`¿Cuándo usar cada uno?`
+**¿Cuándo usar cada uno?**
 
 - Usar **push** cuándo finalicemos una tarea y querramos compartirla.
 - Usar **pull** para actualizarnos con lo último antes de empezar.
 
 **Recomendación:**
 
-- Siempre hacer un `git pull` antes de hacer un `git push`.
+- Siempre hacer un **git pull** antes de hacer un **git push**.
 - Revisar y editar con cuidado los archivos marcados por Git si hay conflictos.
 
 ## ¿Qué es una Pull Request?
@@ -71,13 +71,19 @@ Una Pull Request (PR) es una solicitud para que los cambios realizados en una ra
 
 Nos permiten integrar cambios con seguridad, claridad y revisión, no solo siendo cuestión de código, sino también de comunicación efectiva.
 
+<p align="center">
+  <img src="img/pr.jpeg" alt="Flujo de Pull Request en GitHub" width="500"/>
+  <br>
+  <em>Figura: Visualización del proceso de colaboración mediante Fork(bifurcación), Push y Pull Request en GitHub.</em>
+</p>
+
 ## ¿Cómo crear una Pull Request en GitHub?
 
 Existen dos formas principales de hacerlo:
 
 **1. Automáticamente, al subir una rama nueva**
 
-Si hacemos un `git push` a una nueva rama del repositorio, GitHUb nos mostrará un botón para crear una `Pull Request` directamente desde la vista del repositorio, si hacemos:
+Si hacemos un **git push** a una nueva rama del repositorio, GitHUb nos mostrará un botón para crear una **Pull Request** directamente desde la vista del repositorio, si hacemos:
 
 ```bash
 git checkout -b nueva-funcionalidad
@@ -94,9 +100,9 @@ Nos aparecerá un aviso:
 1. Vamos al repositorio de GitHub.
 2. Hacemos clic en la pestaña **Pull Requests**.
 3. Clic en **New Pull Request**.
-4. Elegimos la `base branch` (ej: main) y la `compare branch` (nuestra rama).
+4. Elegimos la **base branch** (ej: main) y la **compare branch** (nuestra rama).
 5. Escribimos un título descriptivo y un comentario detallado.
-6. Es opcional: Asiganr revisores, etiquetas o proyectos.
+6. Es opcional: Asignar revisores, etiquetas o proyectos.
 
 ## Buenas prácticas al crear una PR
 
