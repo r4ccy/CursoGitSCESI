@@ -4,13 +4,7 @@
 
 # Git/GitHub | SCESI
 
-<p align="center">
-  <img src="img/img1.png" alt="Introducción a Git" width="400"/>
-</p>
-
 ---
-
-Empecemos con git push y git pull, posteriormente veremos el Pull Request.
 
 ## ¿Qué es git push?
 
