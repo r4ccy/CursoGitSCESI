@@ -4,15 +4,13 @@
 
 # Git/GitHub | SCESI
 
-<p align="center">
-  <img src="img/img1.png" alt="Introducción a Git" width="400"/>
-</p>
+## Taller de Git y GitHub
 
 ---
 
 ### ¿Git y GitHub son lo mismo?
 
-No, aunque están relacionados, Git y GotHub son herramientas diferentes:
+No, aunque están relacionados, Git y GitHub son herramientas diferentes:
 
 | Git                          | GitHub                                          |
 |------------------------------|--------------------------------------------------|
@@ -29,9 +27,21 @@ Git es un sistema de control de versiones distribuido que permite registrar camb
 
 Fue creado por Linus Torvalds en 2005 para el desarrollo del kernel de Linux.
 
+<p align="center">
+  <img src="img/funcgit.png" alt="¿Cómo funciona Git?" width="600"/>
+  <br>
+  <em>Figura: Git guarda versiones del proyecto con cada commit, registrando los archivos modificados en cada punto del tiempo.</em>
+</p>
+
 ### ¿Qué es GitHub?
 
 GitHub es una plataforma en la nube que aloja repositorios Git. No reemplaza a Git, sino que lo complementa.
+
+<p align="center">
+  <img src="img/gitHub.png" alt="GitHub colaboración distribuida" width="600"/>
+  <br>
+  <em>Figura: GitHub actúa como repositorio remoto desde el cual múltiples usuarios sincronizan sus repositorios locales.</em>
+</p>
 
 **Funcionalidades:**
 
@@ -61,4 +71,10 @@ Podemos vincularlo a GitHub con:
 ```bash
 git remote add origin https://github.com/usuario/repositorio.git
 ```
+
+<p align="center">
+  <img src="img/gitreprom.png" alt="Repositorio remoto Git" width="700"/>
+  <br>
+  <em>Figura: Representación de un repositorio remoto en Git y cómo interactúan los desarrolladores con él usando comandos como clone, push, pull y fetch.</em>
+</p>
 
