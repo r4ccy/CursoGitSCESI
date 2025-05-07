@@ -4,6 +4,7 @@
 
 # Git/GitHub | SCESI
 
+## git push, git pull y Pull Request
 ---
 
 ## ¿Qué es git push?
@@ -52,13 +53,19 @@ Si, si queremos modificar una parte de un archivo y otra persona también quiere
 
 | Comando | Descripción                               | Dirección      |
 | ------- | ----------------------------------------- | -------------- |
-| **push**  | Envía tus cambios al repositorio remoto   | Local → Remoto |
-| **pull**  | Descarga los cambios remotos a tu entorno | Remoto → Local |
+| **push**  | Envía los cambios al repositorio remoto   | Local → Remoto |
+| **pull**  | Descarga los cambios remotos a nuestro entorno | Remoto → Local |
 
 **¿Cuándo usar cada uno?**
 
 - Usar **push** cuándo finalicemos una tarea y querramos compartirla.
 - Usar **pull** para actualizarnos con lo último antes de empezar.
+
+<p align="center">
+  <img src="img/gitpushpullpr.jpg" alt="Git Push Pull Commands" width="600"/>
+  <br>
+  <em>Figura: Ciclo básico de trabajo con Git. Se muestra la relación entre el área de trabajo local, el repositorio y GitHub usando los comandos add, commit, push y pull.</em>
+</p>
 
 **Recomendación:**
 
@@ -83,7 +90,7 @@ Existen dos formas principales de hacerlo:
 
 **1. Automáticamente, al subir una rama nueva**
 
-Si hacemos un **git push** a una nueva rama del repositorio, GitHUb nos mostrará un botón para crear una **Pull Request** directamente desde la vista del repositorio, si hacemos:
+Si hacemos un **git push** a una nueva rama del repositorio, GitHub nos mostrará un botón para crear una **Pull Request** directamente desde la vista del repositorio, si hacemos:
 
 ```bash
 git checkout -b nueva-funcionalidad
