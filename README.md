@@ -4,13 +4,11 @@
 
 # Git/GitHub | SCESI
 
-<p align="center">
-  <img src="img/img1.png" alt="Introducción a Git" width="400"/>
-</p>
+## States y Commits
 
 ---
 
-## 📁 Estados de los archivos en Git
+## Estados de los archivos en Git
 
 Git clasifica los archivos en tres posibles estados:
 
