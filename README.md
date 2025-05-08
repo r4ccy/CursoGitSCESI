@@ -4,13 +4,9 @@
 
 # Git/GitHub | SCESI
 
-<p align="center">
-  <img src="img/img1.png" alt="Introducción a Git" width="400"/>
-</p>
+## Introducción a Git
 
 ---
-
-## 📁 Introducción a Git
 
 Sistema de control de versiones para gestionar cambios en archivos, desde código hasta documentos. **Más que herramientas, es una filosofía de trabajo.**
 
