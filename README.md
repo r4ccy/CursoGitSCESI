@@ -4,13 +4,8 @@
 
 # Git/GitHub | SCESI
 
-<p align="center">
-  <img src="img/img1.png" alt="Introducción a Git" width="400"/>
-</p>
-
+## HEAD
 ---
-
-## 📁 HEAD en Git
 
 En Git, HEAD es un puntero simbólico que siempre apunta al commit actual dentro de la rama activa. Es el marcador que indica dónde estás parado en el historial de versiones.
 
