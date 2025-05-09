@@ -39,19 +39,18 @@ git reset --soft <hash>
 git reset --hard <hash>
 ```
 
-```
-git reset --soft HEAD~1 : Elimina el último commit pero mantiene 
-los cambios en staging, listos para commitear de nuevo.
 
-git reset --hard HEAD~1 : Elimina el último commit y también borra 
-los cambios del área de trabajo.
+*git reset --soft HEAD~1 : Elimina el último commit pero mantiene*
+*los cambios en staging, listos para commitear de nuevo.*
 
-git reset --soft <hash> : Revierte el historial hasta un commit
- específico y conserva todos los cambios desde entonces en staging.
+*git reset --hard HEAD~1 : Elimina el último commit y también borra*
+*los cambios del área de trabajo.*
 
-git reset --hard <hash> : Vuelve el proyecto al estado exacto de un
- commit anterior, eliminando todos los cambios posteriores.
-```
+*git reset --soft <hash> : Revierte el historial hasta un commit*
+ *específico y conserva todos los cambios desde entonces en staging.*
+
+*git reset --hard <hash> : Vuelve el proyecto al estado exacto de un*
+ *commit anterior, eliminando todos los cambios posteriores.*
 
 ### git reverse
 
@@ -62,13 +61,11 @@ git revert HEAD~1
 git revert <hash>
 ```
 
-```
-git revert HEAD~1 : Revierte el commit anterior al actual, creando 
-un nuevo commit que deshace sus cambios, sin borrar historial.
+*git revert HEAD~1 : Revierte el commit anterior al actual, creando* 
+*un nuevo commit que deshace sus cambios, sin borrar historial.*
 
-git revert <hash> :Revierte un commit específico identificado por
- su hash, también sin eliminarlo, solo deshaciendo sus efectos.
-```
+*git revert <hash> :Revierte un commit específico identificado por*
+ *su hash, también sin eliminarlo, solo deshaciendo sus efectos.*
 
 Es ideal si ya se hizo push al repositorio y no deseamos reescribir el historial compartido.
 
