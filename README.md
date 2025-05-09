@@ -71,3 +71,20 @@ git revert <hash> :Revierte un commit específico identificado por
 ```
 
 Es ideal si ya se hizo push al repositorio y no deseamos reescribir el historial compartido.
+
+
+### git checkout
+
+Nos permite recuperar un archivo desde un commit anterior:
+
+```bash
+git checkout <hash> -- nombre-del-archivo
+```
+
+Este comando nos permite restaurar un archivo específico al estado en que se encontraba en un commit anterior, sin afectar el resto del proyecto.
+
+También podemos usar el siguiente comando para recuperar todo el estado del commit:
+
+```bash
+git checkout HEAD~1
+```
