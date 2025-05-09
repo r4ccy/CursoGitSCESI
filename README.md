@@ -47,6 +47,18 @@ git checkout -b nombre-de-la-rama
 
 Después de trabajar en una rama y hacer los commits necesarios, se puede volver a la rama principal (main) y fusionar los cambios.
 
+### Buenas prácticas al nombrar una rama
+
+- Ser consistente al nombrar nuestras ramas.
+- Usar el nombre de la acción que se realiza en la rama.
+- Usar los IDs de JIRA o el sistema de tickets que usemos.
+
+<p align="center">
+  <img src="img/gitramas.png" alt="Convención para nombrar ramas en Git" width="450"/>
+  <br>
+  <em>Figura: Ejemplo de nomenclatura clara para ramas basada en tareas o tickets.</em>
+</p>
+
 ## Fusión de Ramas (merge)
 
 ### ¿Qué es una fusión de Ramas?
@@ -147,5 +159,3 @@ Eliminar una rama local forzadamente sin importar si ya fue fusionada:
 ```bash
 git branch -D nombre-de-la-rama
 ```
-
-
