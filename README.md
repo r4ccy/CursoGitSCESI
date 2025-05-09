@@ -45,6 +45,25 @@ Cada commit incluye:
 ### Buenas prácticas al hacer commits
 
 - Hacer commits frecuentemente para mantener el progreso guardado.
-- Escribir mensajes descrptivos, breves y claros.
+- Escribir mensajes descriptivos, breves y claros.
 - Evitar mensajes genéricos como: "prueba", "cosas varias", "update"
 - Usar verbos en infinitivo o presente: "Corregir validación del formulario", "Actualizar README"
+
+### Comparación entre buenos y malos mensajes de commit
+
+<div align="center">
+
+<table>
+  <tr>
+    <td align="center">
+      <img src="img/commitright.png" alt="Buen commit" width="300"/><br>
+      <em>Ejemplo de un buen mensaje de commit</em>
+    </td>
+    <td align="center">
+      <img src="img/commitnoo.png" alt="Mal commit" width="300"/><br>
+      <em>Ejemplos de malos mensajes de commit</em>
+    </td>
+  </tr>
+</table>
+
+</div>
