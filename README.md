@@ -13,16 +13,14 @@ El contenido fue trabajado a partir del material oficial del curso, y se complem
 
 ## Contenido por ramas
 
-| Rama                          | Tema                                |
-|-------------------------------|--------------------------------------|
-| 1-IntroduccionGit           | Introducción general a Git          |
-| 2-EstadosArchGit            | Estados de un archivo en Git        |
-| 3-HeadGit                   | Qué es y cómo funciona HEAD         |
-| 4-RamasGit                  | Creación y gestión de ramas         |
-| 5-Conflictos                | Resolución de conflictos            |
-| 6-GitvsGithub               | Diferencias entre Git y GitHub      |
-| 7-Push-Pull-PullRequest     | Trabajo con repositorios remotos    |
-| 8-Flujos-de-Trabajo         | Flujos de trabajo con Git (GitFlow, GitHub Flow, etc.) |
+- [1-IntroduccionGit](https://github.com/r4ccy/CursoGitSCESI/tree/1-IntroduccionGit): Introducción general a Git.
+- [2-EstadosArchGit](https://github.com/r4ccy/CursoGitSCESI/tree/2-EstadosArchGit): Estados de los archivos en Git.
+- [3-HeadGit](https://github.com/r4ccy/CursoGitSCESI/tree/3-HeadGit): Explicación del puntero HEAD.
+- [4-RamasGit](https://github.com/r4ccy/CursoGitSCESI/tree/4-RamasGit): Creación, cambio y eliminación de ramas.
+- [5-Conflictos](https://github.com/r4ccy/CursoGitSCESI/tree/5-Conflictos): Cómo detectar y resolver conflictos.
+- [6-GitvsGithub](https://github.com/r4ccy/CursoGitSCESI/tree/6-GitvsGithub): Diferencias entre Git y GitHub.
+- [7-Push-Pull-PullRequest](https://github.com/r4ccy/CursoGitSCESI/tree/7-Push-Pull-PullRequest): Envío y recuperación de cambios, y uso de Pull Requests.
+- [8-Flujos-de-Trabajo](https://github.com/r4ccy/CursoGitSCESI/tree/8-Flujos-de-Trabajo): Modelos de trabajo en equipo con Git (GitFlow, GitHub Flow, etc).
 
 ## Rama principal (main)
 
