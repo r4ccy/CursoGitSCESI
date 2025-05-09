@@ -25,7 +25,7 @@ Es un sistema que permite registrar y organizar los cambios realizados en los ar
 - **Seguridad:** Permite rastrear cada cambio y quién lo realizó.
 - **Flexibilidad:** Posibilita trabajar en paralelo mediante ramas, sin seguir un flujo lineal.
 
-### 🕰️ Breve historia de Git
+### Breve historia de Git
 
 | Año  | Hito                                                                 |
 | ---- | -------------------------------------------------------------------- |
