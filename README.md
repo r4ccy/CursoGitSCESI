@@ -44,10 +44,32 @@ Cada commit incluye:
 
 ### Buenas prácticas al hacer commits
 
+- Usar el verbo imperativo (Add, Change, Fix, Remove).
+- No usar punto final ni puntos suspensivos en los mensajes.
+- Máximo 50 caracteres para el mensaje.
+- Usar un prefijo para los commits para hacerlos más semánticos.
 - Hacer commits frecuentemente para mantener el progreso guardado.
 - Escribir mensajes descriptivos, breves y claros.
 - Evitar mensajes genéricos como: "prueba", "cosas varias", "update"
 - Usar verbos en infinitivo o presente: "Corregir validación del formulario", "Actualizar README"
+
+### Prefijos para commits
+
+- **feat:** Para una nueva característica para el usuario.
+- **fix:** Para un bug que afecta al usuario.
+- **perf:** Para cambios que mejoran el rendimiento del
+sitio.
+- **build:** Para cambios en el sistema de build, tareas
+de despliegue o instalación.
+- **ci:** Para cambios en la integración continua.
+- **docs:** Para cambios en la documentación.
+- **refactor:** Para refactorización del código como
+cambios de nombre de variables o funciones.
+- **style:** Para cambios de formato, tabulaciones,
+espacios o puntos y coma, etc; no afectan al
+usuario.
+- **test:** Para tests o refactorización de uno ya
+existente.
 
 ### Comparación entre buenos y malos mensajes de commit
 
