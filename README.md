@@ -7,3 +7,7 @@
 ## Hooks, Alias y Trucos en Git
 
 ---
+
+## ¿Qué es un Hook?
+
+En Git, los hooks son como trucos que se activan automáticamente cuando hacemos cosas como crear commits, subir cambios o juntar ramas de código.
