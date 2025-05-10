@@ -6,11 +6,19 @@
 
 ## Hooks, Alias y Trucos en Git
 
+<p align="center">
+  <img src="img/trucos.png" alt="Trucos en Git" width="450"/>
+</p>
+
 ---
 
 ## ¿Qué es un Hook?
 
 En Git, los hooks son como trucos que se activan automáticamente cuando hacemos cosas como crear commits, subir cambios o juntar ramas de código.
+
+<p align="center">
+  <img src="img/hook.svg" alt="Hooks en Git" width="600"/>
+</p>
 
 ## Hooks del lado del cliente
 
@@ -46,8 +54,13 @@ git config --global alias.st status
 git config --global alias.cm commit
 git config --global alias.br branch
 ```
-
 De esta manera podemos usar git st en lugar de git status, o git cm en lugar de git commit.
+
+<p align="center">
+  <img src="img/alias.png" alt="Alias útiles en Git Bash de Windows" width="500"/>
+</p>
+
+<p align="center"><em>Figura: Ejemplos de alias personalizados configurados en Git Bash para Windows.</em></p>
 
 ## Trucos útiles en Git
 
