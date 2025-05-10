@@ -48,3 +48,62 @@ git config --global alias.br branch
 ```
 
 De esta manera podemos usar git st en lugar de git status, o git cm en lugar de git commit.
+
+## Trucos útiles en Git
+
+### Guardar cambios temporalmente
+
+```bash
+git stash
+```
+
+Guarda cambios no confirmados.
+
+```bash
+git stash -u
+```
+
+Guarda cambios incluyendo archivos no rastreados (untracked).
+
+```bash
+git stash pop
+```
+
+Restaura los cambios guardados con stash.
+
+### Aplicar cambios de un commit específico
+
+```bash
+git cherry-pick <SHA>
+```
+Aplica un commit específico a tu rama actual.
+
+### Detectar el commit que introdujo un bug
+
+Usando git bisect:
+
+```bash
+git bisect start
+git bisect bad
+git bisect good
+git bisect reset
+```
+
+Nos permite encontrar el commit problemático mediante búsqueda binaria.
+
+### Cambiar el mensaje del último commit
+
+```bash
+git commit --amend -m "Nuevo mensaje de commit"
+```
+
+Nos permite modificar el mensaje del último commit realizado.
+Es ideal para corregir errores de redacción o aclarar mejor la descripción.
+
+### Recuperar un archivo específico de otra rama o commit
+
+```bash
+git checkout <SHA> -- nombre-del-archivo
+```
+
+Nos permite restaura un archivo individual desde un commit anterior o desde otra rama, sin afectar el resto del proyecto.
