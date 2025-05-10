@@ -21,6 +21,8 @@ El contenido fue trabajado a partir del material oficial del curso, y se complem
 - [6-GitvsGithub](https://github.com/r4ccy/CursoGitSCESI/tree/6-GitvsGithub): Diferencias entre Git y GitHub.
 - [7-Push-Pull-PullRequest](https://github.com/r4ccy/CursoGitSCESI/tree/7-Push-Pull-PullRequest): Envío y recuperación de cambios, y uso de Pull Requests.
 - [8-Flujos-de-Trabajo](https://github.com/r4ccy/CursoGitSCESI/tree/8-Flujos-de-Trabajo): Modelos de trabajo en equipo con Git (GitFlow, GitHub Flow, etc).
+- [9-DeshacerCambios](https://github.com/tu-usuario/tu-repo/tree/9-DeshacerCambios): Comandos para revertir, resetear o recuperar cambios en Git.
+
 
 ## Rama principal (main)
 
