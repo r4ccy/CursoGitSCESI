@@ -6,6 +6,11 @@
 
 ## Deshacer cambios en Git
 
+<p align="center">
+  <img src="img/descambios.png" alt="Flujo de deshacer cambios en Git" width="600"/>
+  <br>
+</p>
+
 ---
 
 ### ¿En qué casos deshacemos cambios?
@@ -38,7 +43,6 @@ git reset --hard HEAD~1
 git reset --soft <hash>
 git reset --hard <hash>
 ```
-
 
 *git reset --soft HEAD~1 : Elimina el último commit pero mantiene*
 *los cambios en staging, listos para commitear de nuevo.*
